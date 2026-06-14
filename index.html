@@ -11,6 +11,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <link rel="stylesheet" href="projects.css">
+
+  <style>
+    .supervisor-line {
+      text-align: center;
+      margin: 18px 0 10px;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      text-shadow: 0 0 12px rgba(0, 229, 255, 0.65);
+    }
+  </style>
 </head>
 
 <body>
@@ -27,6 +39,9 @@
         <span class="title-icon"><i class="fa-solid fa-laptop-code"></i></span>
         <h1>الأعمال والمشاريع</h1>
       </div>
+
+      <p class="supervisor-line">باشراف : د.دعاء مقاري</p>
+
       <p>
         معرض المشاريع البرمجية والحلول الرقمية المبتكرة التي تم تصميمها وتطويرها لدمج التكنولوجيا بالمجال التربوي
       </p>
@@ -123,7 +138,7 @@
     }
 
     if (e.key === "ArrowRight") {
-      currentImage = (currentImage - 1 + galleryImages.length) % galleryImages.length;
+      currentImage = (currentImage - 1 + galleryImages.length;
       showImage(currentImage);
     }
 
